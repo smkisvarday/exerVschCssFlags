@@ -1,6 +1,7 @@
 .container {
+    width: 600px;
     display: grid;
-    grid-template-columns: 173px 234px 173px;
+    grid-template-columns: 175px 250px 175px;
     grid-template-rows: 77px 234px 77px;
     border: solid lightblue;
 }

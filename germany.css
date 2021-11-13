@@ -1,0 +1,33 @@
+.container {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 100px 100px 100px;
+    border: 10px solid #FFFFFF;
+}
+
+.r1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: #000000;
+}
+
+.r2 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #DE0002;
+}
+
+
+.r3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: #FFCE00;
+}
